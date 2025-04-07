@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "606072107508",
+    "project_id": "hometasks-richsenes",
+    "storage_bucket": "hometasks-richsenes.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606072107508:android:1974626b8a664c3a6789a1",
+        "android_client_info": {
+          "package_name": "com.richsenes.householdtasks"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHrJbZzKbG3sSmuAVcFVidXidovxJ6tsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

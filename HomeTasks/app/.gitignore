@@ -1,1 +1,34 @@
-/build
+# === Output della build ===
+/build/
+/.cxx/
+/.kotlinc/
+/coverage/
+
+# === Firebase / Google Services ===
+/google-services.json
+/crashlytics-build.properties
+/firebase-debug.log
+
+# === File temporanei / compilati ===
+*.class
+*.apk
+*.ap_
+*.dex
+*.o
+*.so
+
+# === File temporanei e backup ===
+*.tmp
+*.bak
+*.swp
+*.swo
+*.~
+
+# === Chiavi / certificati ===
+*.jks
+*.keystore
+*.key
+*.pem
+
+# === Caching Compose ===
+/compose.compiler.cache/

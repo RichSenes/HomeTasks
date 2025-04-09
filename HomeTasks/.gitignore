@@ -1,69 +1,56 @@
-# Android/IntelliJ
+# IDE e ambiente di sviluppo
 .idea/
 *.iml
-*.ipr
-*.iws
+HomeTasks/.idea/
+HomeTasks/*.iml
 
-# Gradle
-.gradle/
-build/
-**/build/
-!gradle-wrapper.jar
-.gradle-cache/
-local.properties
-.gradle/
-*.log
-
-# Sign-in keys
-*.jks
-*.keystore
-*.pem
-*.key
-
-# Google Services / Firebase
-app/google-services.json
-firebase-debug.log
-crashlytics-build.properties
-
-# Kotlin
-*.class
-*.jar
-*.war
-*.ear
-*.apk
-*.ap_
-
-# Jetpack Compose
-.kotlinc/
-compose.compiler.cache/
-
-# OS specific
+# Sistema operativo
 .DS_Store
 Thumbs.db
-ehthumbs.db
-*.swp
-*.swo
-*.orig
 
-# Logs
+# Build e cache
+HomeTasks/.gradle/
+HomeTasks/.kotlin/
+HomeTasks/app/build/
+HomeTasks/app/.cxx/
+HomeTasks/app/.kotlinc/
+
+# Gradle
+HomeTasks/local.properties
+**/build/
+
+# File di log
 *.log
-
-# Android Studio Navigation editor temp files
-.navigation/
 
 # Android Studio captures
 captures/
 
-# Local configuration file (sdk path, etc)
-local.properties
+# Firebase e Google Services
+HomeTasks/app/google-services.json
+HomeTasks/app/crashlytics-build.properties
+HomeTasks/app/firebase-debug.log
 
-# NDK
-.cxx/
+# Chiavi e firme
+*.jks
+*.keystore
+*.key
+*.pem
 
-# Unit test coverage
-coverage/
-
-# Others
+# File temporanei / backup
 *.tmp
 *.bak
+*.swp
+*.swo
 *.~
+
+# Output Kotlin/Java
+*.class
+*.jar
+*.apk
+*.ap_
+
+# Coverage
+HomeTasks/app/coverage/
+
+# Navigation XML Editor
+.navigation/
